@@ -81,7 +81,7 @@ class ContactsListPresenter constructor(private val view: ContactsListContract.V
             if (headeredContact.type == HeaderedModel.TYPE_STICKY_HEADER) {
                 stickyHeaders.add(StickyHeaderContent(headeredContact.header!!))
                 indexBarHeaders.add(IndexHeader(headeredContact.header!!, headeredContact.header!!))
-                headerToPositionMapping[headeredContact.header!!] = position + 1
+                headerToPositionMapping[headeredContact.header!!] = position
             } else {
                 stickyHeaders.add(null)
                 lastLoadedContact = headeredContact.model
