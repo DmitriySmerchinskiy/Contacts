@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Contacts</string>
+
+    <string name="error_no_network">No network</string>
+</resources>
